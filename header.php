@@ -7,7 +7,7 @@
 <html>
 	<body>
 		<header>
-        	<h1>Fat Lip Sports Blog</h1>
+        	<h1><a href="<?php echo home_url(); ?>">Fat Lip Sports Blog</a></h1>
         </header>
         
         
