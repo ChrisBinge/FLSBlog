@@ -16,11 +16,6 @@ get_header(); ?>
 					 * (where ___ is the post format) and that will be used instead.
 					 */
 					get_template_part( 'content', get_post_format() );
-<<<<<<< HEAD
-
-					
-=======
->>>>>>> 0c7dc33b837c60c9ee51ed1b95be31c2c6644acb
 				endwhile;
 			?>
 			<div class="fb-comments" data-numposts="6" data-colorscheme="dark"></div>
