@@ -26,10 +26,7 @@
 	box-sizing:         border-box;
 }
 
-img {
-	display: block;
 
-}
 
 article,
 aside,
@@ -511,11 +508,53 @@ article {
 footer > a {
 	color:white ;
 	font-weight: bold;
-	
+
 
 }
 
 a:hover {
 	color:#F76205;
 }
+
+#authorSpace {
+
+	margin-left: 10px;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	width: 60%;
+}
+
+#authorName {
+	
+	color: #F76205;
+	font-family: 'octin_vintage_freeregular';
+	font-size: 20px;
+	float:left;
+	
+}
+
+#copyPhoto {
+	
+	overflow:hidden;
+	
+	
+}
+
+#authorPhoto > img  {
+	height: 100px;
+	width: 100px;
+	border: 2px solid #c9c9c9;
+	border-radius: 10px;
+	margin: 5px;
+	float:left;
+}
+
+#copy {
+	color:white;
+	display: inline;
+
+}
+
+
+
 

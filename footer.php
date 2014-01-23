@@ -1,6 +1,6 @@
 		<script type="text/javascript">
 		<!--
-			resize();
+			resize(//);
 		//--></script>
 		<footer>
 			
