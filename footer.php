@@ -1,11 +1,6 @@
 		<script type="text/javascript">
 		<!--
-<<<<<<< HEAD
-			resize(//);
-=======
-			//resize();
 			cover_scroll();
->>>>>>> 0c7dc33b837c60c9ee51ed1b95be31c2c6644acb
 		//--></script>
 		<footer>
 			
