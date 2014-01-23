@@ -595,7 +595,7 @@ a:hover {
 	color:#F76205;
 }
 
-<<<<<<< HEAD
+
 #authorSpace {
 
 	margin-left: 10px;
@@ -609,7 +609,6 @@ a:hover {
 	color: #F76205;
 	font-family: 'octin_vintage_freeregular';
 	font-size: 20px;
-	float:left;
 	
 }
 
@@ -638,7 +637,7 @@ a:hover {
 
 
 
-=======
+
 
 /*************** Contact Page *****************/
 
@@ -741,4 +740,10 @@ a:hover {
 	#sidebar {
 		display: none;
 	}
+<<<<<<< HEAD
 }
+=======
+}
+
+
+>>>>>>> 748df2fff7d859a6780a921677b21ed6cde911f5
