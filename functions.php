@@ -21,3 +21,9 @@ function wptuts_scripts_with_jquery()
     wp_enqueue_style( 'custom-style' );  
 }  
 add_action( 'wp_enqueue_scripts', 'wptuts_scripts_with_jquery' );
+//Add custom tagline to author section
+add_filter('user_contactmethods', 'modify_contact_methods');
+function modify_contact_methods($profile_fields) {
+	$profile_fields['tagline'] = 'Author Tagline';
+	return $profile_fields;
+}
