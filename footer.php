@@ -1,6 +1,7 @@
 		<script type="text/javascript">
 		<!--
-			resize();
+			//resize();
+			cover_scroll();
 		//--></script>
 		<footer>
 			

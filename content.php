@@ -19,6 +19,12 @@
 				the_title( '<h1 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h1>' );
 			endif;
 		?>
+		<div id="author">
+		<?php echo get_avatar( $id_or_email, 65, $default, $alt ); ?>
+		<h2><?php echo get_the_author(); ?></h2>
+		<h3><?php $authortagline = get_the_author_meta('tagline'); echo $authortagline; ?></h3> 
+		<p>Published: <?php the_time('F j, Y'); ?> at <?php the_time('g:i a'); ?></p>
+		</div>  
 	</header><!-- .entry-header -->
 	<?php if ( is_search() ) : ?>
 	<div class="entry-summary">
